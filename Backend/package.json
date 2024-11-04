@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "text.js",
+  "type": "module",
+  "scripts": {
+    "start": "node text.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google-cloud/language": "^6.5.0",
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "express": "^4.21.0",
+    "multer": "^1.4.5-lts.1",
+    "openai": "^4.65.0",
+    "json2csv": "^5.0.7"
+  }
+}

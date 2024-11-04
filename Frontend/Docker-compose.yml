@@ -1,0 +1,6 @@
+frontend:
+  build:
+    context: ./frontend # Adjust the path if necessary
+    dockerfile: Dockerfile # Specify the Dockerfile if it has a different name
+  ports:
+    - "4000:4000" # Adjust based on your frontend port
